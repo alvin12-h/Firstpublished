@@ -87,15 +87,26 @@ body{
   background-size: 600% 600%;
 }
 
-a{
+.a1{
   font-size:80px;
   justify-content: center;
   margin: auto;
   align-items: center;
   position:relative;
   left:50%;
+  color:red;
   
   
 }
+  a{
+    
+    font-size:80px;
+  justify-content: center;
+  margin: auto;
+  align-items: center;
+  position:relative;
+  left:20%;
+    color:black;
   
-  
+  }
+
