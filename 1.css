@@ -3,7 +3,7 @@ body {
     margin: 0;
     padding: 0;
     color: #333;
-    background: linear-gradient(45deg, #2196F3, #E91E63, #4CAF50);
+    background: linear-gradient(45deg, red,blue,pink,orange);
     background-size: 600% 600%;
     animation: backgroundAnimation 10s ease infinite;
     overflow-x: hidden;
@@ -27,6 +27,8 @@ header {
 header h1 {
     text-align: center;
     margin: 0;
+    color:white;
+    text-shadow: 5px 4px 4px black;
 }
 
 nav ul {
@@ -41,14 +43,16 @@ nav ul li {
 }
 
 nav ul li a {
-    color: #fff;
+    color: white;
     text-decoration: none;
     font-weight: bold;
     transition: color 0.3s;
+    
 }
 
 nav ul li a:hover {
     color: #f4a261;
+    
 }
 
 main {
@@ -57,7 +61,7 @@ main {
 
 .hero {
     background: rgba(42, 157, 143, 0.8);
-    color: #fff;
+    color: red;
     padding: 60px 20px;
     text-align: center;
     border-radius: 8px;
@@ -74,12 +78,19 @@ main {
 }
 
 .content {
-    background: rgba(255, 255, 255, 0.9);
+    background: white;
     padding: 40px 20px;
-    border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    box-shadow: 3px 2px 4px 3px black;
     margin-top: 20px;
     animation: slideIn 1s;
+    color:Oranged;
+    
+    
+    margin: auto;
+    text-shadow: 4px 4px 5px grey;
+    
+    
 }
 
 footer {
@@ -88,7 +99,8 @@ footer {
     text-align: center;
     padding: 10px 0;
     position: relative;
-    margin-top: 20px;
+    margin-top: 200px;
+    box-shadow: 3px 4px 5px 4px white;
 }
 
 @keyframes backgroundAnimation {
@@ -121,4 +133,43 @@ footer {
         transform: translateY(0);
         opacity: 1;
     }
+}
+
+a{
+    
+    
+}
+
+p{
+    color:blue;
+    text-shadow: 90px,3p,6p,red;
+    
+}
+
+h2{
+    font-size:35px;
+    text-align: top;
+    justify-content: center;
+    align-items: top;
+    
+    
+}
+.logo{
+    
+    
+   list-style: none;
+    padding: 0;
+    text-align: left;
+    text-decoration: none;
+    color:orange;
+    font-size:15px;
+    
+}
+
+.text{
+   color:green; 
+    font-size: 15;
+    text-shadow: 4px 2px 3px black;
+    
+    
 }
